@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Hishab Nikash</string>
+    <string name="home_actionbar_name">হিসাব নিকাশ</string>
+
+    <string name="nav_home">হোম</string>
+    <string name="nav_moreApps">অন্যান্য অ্যাপ</string>
+    <string name="nav_rateApp">৫ স্টার রেটিং দিন</string>
+    <string name="nav_shareApp">শেয়ার করুন</string>
+    <string name="setting_name">সেটিংস</string>
+    <string name="nav_aboutUs">আমাদের সম্পর্কে</string>
+    <string name="nav_termsCondition">Terms &amp; Conditions</string>
+    <string name="nav_privacyPolicy">Privacy Policy</string>
+
+    <string name="exit_text">আপনি কি এই অ্যাপ থেকে বের হতে চান? এই অ্যাপটি ভালো লাগলে ৫ স্টার দিতে ভুলবেন না।</string>
+</resources>
