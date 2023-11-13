@@ -46,14 +46,20 @@ public class MainActivity extends AppCompatActivity {
                 int id = item.getItemId();
                 item.setChecked(true);
                 drawerLayout.closeDrawer(GravityCompat.START);
-                switch (id)
+                if (id == R.id.nav_home){
+                    drawerLayout.closeDrawer(GravityCompat.START);
+                }
+                else if(id == R.id.nav_setting){
+                    startActivity(new Intent(MainActivity.this, SettingActivity.class));
+                    finish();
+                }
+                /*switch (id)
                 {
-                    /*case R.id.nav_home:
-                        drawerLayout.closeDrawer(GravityCompat.START);
+                    case R.id.nav_home:
+
                         break;
                     case R.id.nav_setting:
-                        startActivity(new Intent(MainActivity.this, MainActivity2.class));
-                        finish();
+
                         break;
                     case R.id.nav_moreApps:
                         startActivity(new Intent(MainActivity.this, MainActivity2.class));
@@ -76,9 +82,9 @@ public class MainActivity extends AppCompatActivity {
                         break;
 
                     default:
-                        return true;*/
+                        return true;
 
-                }
+                }*/
                 return true;
             }
         });

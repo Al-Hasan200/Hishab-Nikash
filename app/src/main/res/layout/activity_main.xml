@@ -42,7 +42,7 @@
                     android:fontFamily="@font/regular"
                     android:text="@string/home_actionbar_name"
                     android:textColor="@color/white"
-                    android:textSize="@dimen/_20ssp"
+                    android:textSize="@dimen/_18ssp"
                     android:textStyle="bold" />
 
             </LinearLayout>

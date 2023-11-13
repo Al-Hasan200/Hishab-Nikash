@@ -11,5 +11,23 @@
     <string name="nav_termsCondition">Terms &amp; Conditions</string>
     <string name="nav_privacyPolicy">Privacy Policy</string>
 
+    <string name="aboutUs">অ্যাপটির তথ্য</string>
+    <string name="nav_sound">টাচ সাউন্ড</string>
+    <string name="darkMode">ডার্ক মোড</string>
+    <string name="version">ভার্সন কোড</string>
+    <string name="version1">1.1</string>
+    <string name="company">কোম্পানির নাম</string>
+    <string name="company1">SHA Software</string>
+    <string name="email">ই-মেইল</string>
+    <string name="email1">alhasann200@gmail.com</string>
+    <string name="about">এই অ্যাপ সম্পর্কে</string>
+    <string name="aboutApp">\nআপনি কি চাকরি খুঁজছেন যদি সকল প্রকার চাকরির খবর এক সাথে পেতে চান তাহলে এই অ্যাপটি আপনার জন্য।\n\nকারণ এই অ্যাপটিতে বাংলাদেশের সব ধরনের চাকরির খবর একসাথে পাওয়া যায়।\n\nএই অ্যাপটিতে সব ধরনের সরকারি, বেসরকারি, ব্যাংক, প্রসাশন, ডিফেন্স, এনজিও, শিক্ষা-প্রতিষ্ঠানের চাকরির খবর একসাথে পাওয়া যায়।\n\nএই অ্যাপটিতে ক্যাটাগরি অনুযায়ী চাকরির খবর দেখানো হয়, যোগ্যতা অনুযায়ী চাকরির খবর দেখানো হয়।\n\nএছাড়াও এই অ্যাপটিতে চাকরির পরিক্ষার ফলাফল,  সাপ্তাহিক চাকরির পত্রিকা এবং চাকরির পরিক্ষার নোটিশ দেখতে পারবেন আপনারা।\n\nআশাকরি এই অ্যাপটি আপনাদের জন্য খুবই কাজে দিবে, ধন্যবাদ।\n</string>
+
+    <string-array name="theme">
+        <item>সিস্টেম ডিফল্ট</item>
+        <item>ডার্ক মোড</item>
+        <item>লাইট মোড</item>
+    </string-array>
+
     <string name="exit_text">আপনি কি এই অ্যাপ থেকে বের হতে চান? এই অ্যাপটি ভালো লাগলে ৫ স্টার দিতে ভুলবেন না।</string>
 </resources>
