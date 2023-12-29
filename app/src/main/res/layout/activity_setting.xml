@@ -15,7 +15,7 @@
         <RelativeLayout
             android:id="@+id/relativeLayout"
             android:layout_width="match_parent"
-            android:layout_height="?actionBarSize"
+            android:layout_height="@dimen/_50sdp"
             android:background="@color/primary">
 
             <LinearLayout
@@ -24,7 +24,7 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:id="@+id/backArrowJobView"
+                    android:id="@+id/backArrow"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
@@ -63,34 +63,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:weightSum="5">
+                    android:weightSum="4">
 
                     <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/btn"
-                        android:layout_margin="@dimen/_9sdp"
-                        android:layout_weight="1">
-
-                        <androidx.appcompat.widget.SwitchCompat
-                            android:id="@+id/soundSwitch"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="@dimen/_8sdp"
-                            android:layout_marginTop="@dimen/_8sdp"
-                            android:layout_marginEnd="@dimen/_8sdp"
-                            android:layout_marginBottom="@dimen/_8sdp"
-                            android:fontFamily="@font/regular"
-                            android:padding="@dimen/_9sdp"
-                            android:text="@string/nav_sound"
-                            android:textColor="@color/primary_text"
-                            android:textSize="@dimen/_15ssp"
-                            android:textStyle="bold" />
-
-                    </RelativeLayout>
-
-                    <RelativeLayout
-                        android:id="@+id/relayout"
+                        android:id="@+id/darkLight"
                         android:visibility="visible"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -208,7 +184,7 @@
                                         android:background="@color/white"
                                         android:padding="@dimen/_6sdp"
                                         android:scaleType="fitXY"
-                                        android:src="@drawable/ic_launcher_background" />
+                                        android:src="@drawable/app_icon" />
 
                                 </androidx.cardview.widget.CardView>
 
